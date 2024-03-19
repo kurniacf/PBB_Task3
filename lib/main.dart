@@ -4,11 +4,6 @@ import 'package:google_fonts/google_fonts.dart';
 void main() => runApp(MaterialApp(
   theme: ThemeData(
     primarySwatch: Colors.purple,
-    // colorScheme: ColorScheme.light(
-    //   primary: Colors.purple[800], // Warna AppBar
-    //   onPrimary: Colors.white, // Warna judul AppBar
-    //   secondary: Colors.purple[600], // Warna FAB
-    // ),
     textTheme: GoogleFonts.poppinsTextTheme(
       ThemeData.light().textTheme,
     ),
@@ -23,24 +18,30 @@ class Home extends StatelessWidget {
       appBar: AppBar(
           title: Text('ProjectQ'),
           centerTitle: true,
-          backgroundColor: Colors.purple[600], // Atur warna AppBar
+          backgroundColor: Colors.purple[600],
       ),
-      body: Center(
-        child: Text(
-          'Welcome Kurnia Cahya',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: GoogleFonts.poppins().fontFamily, // Gunakan Poppins
+      body: SingleChildScrollView( // Untuk Scrolling
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Image.asset(
+                'assets/image-1.jpg',
+                fit: BoxFit.cover,
+              ),
+              SizedBox(height: 20),
+              Image.network(
+                'https://images.unsplash.com/photo-1582769923195-c6e60dc1d8dc?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                fit: BoxFit.cover,
+              ),
+            ],
           ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.purple[800], // Atur warna FloatingActionButton
-        child: Text('click'),
+        backgroundColor: Colors.purple[800], 
+        child: Icon(Icons.add),
       ),
     );
   }
