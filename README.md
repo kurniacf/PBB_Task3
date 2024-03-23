@@ -1,16 +1,43 @@
-# project2_widget
+# Personal Card ProjectQ
 
-Project 2 Widgets
+Project ini merupakan aplikasi kartu personal yang dibangun menggunakan Flutter. 
+Aplikasi ini menampilkan informasi kontak dan link ke media sosial.
 
-## Getting Started
+## Tentang Pembuat
 
-This project is a starting point for a Flutter application.
+- **Nama:** Kurnia Cahya Febryanto
+- **Kelas:** Pemrograman Perangkat Bergerak D
+- **NRP:** 5025201073
 
-A few resources to get you started if this is your first Flutter project:
+## Fitur
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Aplikasi ini menampilkan beberapa fitur utama:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Informasi personal (nama, peran, email).
+- Link ke media sosial (Instagram, GitHub, dan LinkedIn).
+
+## Teknologi yang Digunakan
+
+Proyek ini dibangun menggunakan:
+
+- [Flutter](https://flutter.dev/) 
+- [Font Awesome Flutter](https://pub.dev/packages/font_awesome_flutter) - Untuk ikon media sosial.
+- [Google Fonts](https://pub.dev/packages/google_fonts) - Untuk typografi.
+
+## Start Project
+
+### Langkah 1: Clone project
+Clone project dari URL;
+- HTTPS: https://github.com/kurniacf/PBB_Task3.git
+- SSH: git@github.com:kurniacf/PBB_Task3.git
+
+
+### Langkah 2: Install Dependencies
+
+Masuk ke direktori proyek di `pubspec.yaml` dan jalankan perintah berikut:
+
+```flutter pub get```
+
+### Langkah 3: Jalankan Aplikasi
+
+Build dan jalankan aplikasi, pastikan device dipilih dulu
