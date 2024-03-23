@@ -27,7 +27,9 @@ Proyek ini dibangun menggunakan:
 ## Start Project
 
 ### Langkah 1: Clone project
-Clone project dari URL;
+
+Clone project dari URL:
+
 - HTTPS: https://github.com/kurniacf/PBB_Task3.git
 - SSH: git@github.com:kurniacf/PBB_Task3.git
 
@@ -41,3 +43,9 @@ Masuk ke direktori proyek di `pubspec.yaml` dan jalankan perintah berikut:
 ### Langkah 3: Jalankan Aplikasi
 
 Build dan jalankan aplikasi, pastikan device dipilih dulu
+
+
+## Lihat Youtube
+Demo bisa dilihat pada Youtube berikut: 
+
+[![Personal Card](https://img.youtube.com/vi/d-O_ocGMi9o/0.jpg)](https://youtu.be/d-O_ocGMi9o?si=WBWx0Jw0qLTNL214 "Demo Project Personal Card ProjectQ")
